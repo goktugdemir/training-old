@@ -11,9 +11,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-# [START studentshelf_app_yml]
+# [START traineeshelf_app_yml]
 runtime: nodejs10
 
 instance_class: F2
 
-# [END studentshelf_app_yml]
+# [END traineeshelf_app_yml]

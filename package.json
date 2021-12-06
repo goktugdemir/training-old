@@ -6,7 +6,7 @@
   "engines": {
     "node": ">=10"
   },
-  "repository": "https://github.com/GoogleCloudPlatform/nodejs-getting-started",
+  "repository": "https://github.com/goktugdemir/training",
   "main": "app.js",
   "private": true,
   "scripts": {

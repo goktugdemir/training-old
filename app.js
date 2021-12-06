@@ -20,13 +20,13 @@ const app = express();
 app.set('views', require('path').join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
-// students
-app.use('/students', require('./students/crud'));
-app.use('/api/students', require('./students/api'));
+// Trainees
+app.use('/trainees', require('./trainees/crud'));
+app.use('/api/trainees', require('./trainees/api'));
 
-// Redirect root to /students
+// Redirect root to /trainees
 app.get('/', (req, res) => {
-  res.redirect('/students');
+  res.redirect('/trainees');
 });
 
 app.get('/errors', () => {
